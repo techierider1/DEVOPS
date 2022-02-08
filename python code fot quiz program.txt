@@ -1,0 +1,144 @@
+#Quiz program 
+score=0
+def quiz():
+    print('A.What is ap capital')
+    print('1.Kurnool')
+    print('2.Amaravathi')
+    print('3.Visakapatnam')
+    print('4.All above')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==4:
+        global score
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('B.Who is cm of ap')
+    print('1.CBN')
+    print('2.Jagan')
+    print('3.Modi')
+    print('4.Chiranjeevi')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==2:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('C.India capital')
+    print('1.Chennai')
+    print('2.Delhi')
+    print('3.Kolkata')
+    print('4.Bagyanagar')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==2:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('D.Tirumala located in')
+    print('1.Mp')
+    print('2.Ap')
+    print('3.Up')
+    print('4.Hp')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==2:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('E.This quiz is what language')
+    print('1.Python')
+    print('2.Java')
+    print('3.C')
+    print('4.None')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==1:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('F.2020 IPL Winner')
+    print('1.Mumbai')
+    print('2.Delhi')
+    print('3.Banglore')
+    print('4.Rajastan')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==1:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('G.Universal God')
+    print('1.Yesu')
+    print('2.Alla')
+    print('3.Krishna')
+    print('4.None')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==3:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('H.All mothers are')
+    print('1.Males')
+    print('2.Females')
+    print('3.Gays')
+    print('4.None')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==2:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('I.Our planet')
+    print('1.Mars')
+    print('2.Venus')
+    print('3.Earth')
+    print('4.Jupitar')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==3:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+    print('='*44)
+    print('J.Power generated from')
+    print('1.Air')
+    print('2.Water')
+    print('3.Sun')
+    print('4.Above all')
+    print('='*44)
+    ch=int(input('Answer='))
+    if ch==4:
+        print('Correct answer')
+        score+=1
+        print('Your score is ',score)
+    else:
+        print('Wrong Answer')
+quiz()
